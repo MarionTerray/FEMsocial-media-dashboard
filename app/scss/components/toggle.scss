@@ -6,6 +6,12 @@
     border: none;
     margin: 0;
 
+    @media (max-width: 640px) {
+        position: absolute;
+        right: 10px;
+        top: 80px;
+    }
+
     label {
         font-size: rem(14);
         font-weight: 700;

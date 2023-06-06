@@ -4,10 +4,14 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: rem(36);
+    position: relative;
 
     @include breakpoint(medium){
         justify-content: space-between;
         align-items: center;
+    }
+    @media (max-width: 640px) {
+        min-height: 100px;
     }
 
     &__title {
