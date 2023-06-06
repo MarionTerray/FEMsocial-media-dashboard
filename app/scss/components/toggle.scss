@@ -10,6 +10,10 @@
         position: absolute;
         right: 10px;
         top: 80px;
+        width: 95%;
+        margin: auto;
+        padding-top: 10px;
+        border-top: solid 1px var(--toggle-bg-light);
     }
 
     label {
