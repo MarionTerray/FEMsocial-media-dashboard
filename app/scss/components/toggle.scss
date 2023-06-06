@@ -8,6 +8,8 @@
 
     label {
         font-size: rem(14);
+        font-weight: 700;
+        color: var(--toggle);
 
         &[for="dark"]{
             line-height: rem(24);
@@ -24,8 +26,8 @@
     input[type="radio"] {
         opacity: 0;
         margin: 0 -2px 0 -2px;
-        width: rem(20);
-        height: rem(20);
+        width: rem(25);
+        height: rem(25);
 
         &:focus ~ .toggle__button {
             border: 2px solid white;
@@ -40,7 +42,7 @@
         width: 100%;
         top: 0;
         border-radius: rem(12);
-        background: linear-gradient(225deg, var(--toggle-bg-end) 0%, var(--toggle-bg-start) 98.02%);
+        background: var(--toggle-bg);
         pointer-events: none;
     }
 
@@ -52,7 +54,7 @@
         width: rem(18);
         height: rem(18);
         border-radius: 50%;
-        background-color: var(--dark-bg);
+        background-color: var(--toggle-btn);
     }
 
 
